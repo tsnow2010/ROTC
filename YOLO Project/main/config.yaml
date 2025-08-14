@@ -1,0 +1,20 @@
+
+path: /Users/snowgtyler/Downloads/Military Vehicles Project # dataset root dir
+train: images/train
+val: images/train
+
+# Classes
+nc: 12
+names: # file in root dir
+ 0: TNK
+ 1: APC
+ 2: ICBM
+ 3: IMV
+ 4: SPH
+ 5: MRLS
+ 6: SRBM
+ 7: UAVC
+ 8: SAM
+ 9: IFV
+ 10: CT
+ 11: SC
