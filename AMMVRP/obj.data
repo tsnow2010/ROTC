@@ -1,0 +1,7 @@
+classes = 12
+names = obj.names
+train = train.txt
+val = val.txt
+test = test.txt
+
+
