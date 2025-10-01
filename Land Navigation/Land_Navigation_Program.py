@@ -20,8 +20,9 @@ assignments_path = f"{home_path}/'Assignments'"
 def generate_assignments(group:str, num_cdts:int, num_train_points:int):
     
     # Constants
+    group = group # Group name
+    num_cdts = num_cdts # Number of cadets in group
     num_train_points = num_train_points # Number of points trainees are looking for
-    num_cdts = num_cdts
     
     # Step 1: Pull land navigation points from CSV file and create dictionary.
     points = {}
