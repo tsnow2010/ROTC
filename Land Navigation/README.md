@@ -23,3 +23,4 @@
 
 ## Improvements
 - Add functionality to create .csv file ready for MILGPS app use by cadre and MSIV trainers.
+- Error Throwing, e.g. incorrect input by user.
