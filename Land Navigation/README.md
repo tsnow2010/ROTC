@@ -20,3 +20,6 @@
 - _Land_Navigation_Program.py_: Complete script for program.
 - _LN_Points.csv_: Example of properly formatted .csv file for proper functioning of program.
 - _MILGPS_LN_Points.csv_: Not used by program.  Example of properly formatted .csv file for MILGPS app use.
+
+## Improvements
+- Add functionality to create .csv file ready for MILGPS app use by cadre and MSIV trainers.
