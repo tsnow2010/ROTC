@@ -1,7 +1,7 @@
 # Advanced Multi-class Military Vehicle Recognition Project (AMMVRP) 
 
 ### Purpose: To use Ultralytics YOLOv11 to test the viability of using computer vision (CV) to recognize over 12 classes of military vehicles using bounding boxes.  The project will answer whether accuracy will improve with greater classes and whether computer vision will be able to recognize key features distinguishing military vehicles with different purposes.  
-> - Previous work was done by <<name of other developer>> in which only <<4>> classes were classified, but I recognized the usefulness of being able to further discriminate the types of military vehicles.
+> - Previous projects only attempted to recognize (4) classes of military vehicles, but I recognized the usefulness of being able to further discriminate the types of military vehicles.
 > - In the current project, all classes have clearly differentiable features, such as small, large cylinders, flat surfaces, tracked or wheeled capability, etc.
 
 ### Method: 
