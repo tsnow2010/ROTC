@@ -1,4 +1,4 @@
-# Title: Land Navigation Program
+# Title: Land_Nav_Slip_Generator
 # BJBN ROTC Class of 2026
 
 #### Author: 
