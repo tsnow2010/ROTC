@@ -94,9 +94,15 @@ with pd.ExcelWriter(output_excel, engine='openpyxl') as writer:
 
             # Read CSV and write to Excel sheet
             df = pd.read_csv(file_path)
-            df.to_excel(writer, sheet_name=sheet_name, index=False)
+            df.to_excel(writer, sheet_name=sheet_name, index=False, startrow=1)
 
             ws = writer.sheets[sheet_name]
+
+            # --- Add custom header in first row ---
+            header_text = sheet_name
+            ws.merge_cells("A1:B1")
+            cell = ws["A1"]
+            cell.value = header_text
 
             # --- Change cell width ---
             for col_idx, col in enumerate(df.columns, 2):
@@ -112,7 +118,7 @@ with pd.ExcelWriter(output_excel, engine='openpyxl') as writer:
             thin = Side(border_style="thin", color="000000")
             border = Border(left=thin, right=thin, top=thin, bottom=thin)
                         
-            for row in ws.iter_rows(min_row=1, max_row=len(df)+1, min_col=1, max_col=len(df.columns)):
+            for row in ws.iter_rows(min_row=1, max_row=len(df)+2, min_col=1, max_col=len(df.columns)):
                 for cell in row:
                     # --- Change font size ---
                     cell.font = Font(name="Calibri", size=10)
