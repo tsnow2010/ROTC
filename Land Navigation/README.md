@@ -14,6 +14,7 @@
 >* Print the training slips with these printing settings:
 >* - Change ALL margin lengths to 0".
 >* - Change orientation to landscape.
+>  - Turn OFF double-sided printing.
 >* Note that if you give trainees more than (8) points, the above recommended settings may have to be adjusted.
 
 ## Documentation
@@ -24,3 +25,4 @@
 ## Improvements
 - Add functionality to create .csv file ready for MILGPS app use by cadre and MSIV trainers.
 - Error Throwing, e.g. incorrect input by user.
+- Fix last row formatting.
