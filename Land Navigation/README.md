@@ -18,7 +18,8 @@
 >* Note that if you give trainees more than (8) points, the above recommended settings may have to be adjusted.
 
 ## Documentation
-- _Land_Navigation_Program.py_: Complete script for program.
+- _main.ipynb_: Main program.
+- _landnavTrainer.py_: Functions for program.
 - _LN_Points.csv_: Example of properly formatted .csv file for proper functioning of program.
 - _MILGPS_LN_Points.csv_: Not used by program.  Example of properly formatted .csv file for MILGPS app use.
 
