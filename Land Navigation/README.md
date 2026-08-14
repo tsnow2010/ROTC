@@ -1,4 +1,4 @@
-# Title: Land_Nav_Slip_Generator
+# Title: Land Nav Slip Generator
 # BJBN ROTC Class of 2026
 
 #### Author: 
