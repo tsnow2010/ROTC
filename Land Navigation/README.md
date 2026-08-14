@@ -7,9 +7,9 @@
 ## How To Use:
 
 >* Install Python 3 or higher.
->* Download landnavTrainer.py and LN_Points.csv and place in separate directory.
+>* Download "Required" files in separate directory.
 >* Adjust .csv file to your training needs, i.e. coordinates, answers, etc.
->* Run landnavTrainer.py program and follow prompts.
+>* Run main.py program and follow prompts.
 >* Locate <Exercise_Name>_Assignments_Compiled.xlsx in newly created "Assignments" directory, located in the directory where program was run.
 >* Print the training slips with these printing settings:
 >* - Change ALL margin lengths to 0".
@@ -18,10 +18,13 @@
 >* Note that if you give trainees more than (8) points, the above recommended settings may have to be adjusted.
 
 ## Documentation
-- _main.ipynb_: Main program in .ipynb format.  
-- _landnavTrainer.py_: Functions for program.
-- _LN_Points.csv_: Example of properly formatted .csv file for proper functioning of program.
-- _MILGPS_LN_Points.csv_: Not used by program.  Example of properly formatted .csv file for MILGPS app use.
+- Required:
+  - _main.py_: Main program.
+  - _landnavTrainer.py_: Functions for program.
+  - _LN_Points.csv_: Example of properly formatted .csv file for proper functioning of program.
+- Optional:
+  - _main.ipynb_: Main program in .ipynb format.  
+  - _MILGPS_LN_Points.csv_: Not used by program.  Example of properly formatted .csv file for MILGPS app use.
 
 ## Improvements
 - Add functionality to create .csv file ready for MILGPS app use by cadre and MSIV trainers.
